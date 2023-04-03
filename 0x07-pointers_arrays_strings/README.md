@@ -1,1 +1,1 @@
-Lol another README.md file that no one will read
+0x07. C - Even more pointers, arrays and strings
