@@ -1,27 +1,17 @@
+#include "main.h"
 #include <stdio.h>
-#include <string.h>
-	int main(__attribute__((unused)) int argc, char *argv[])
+
 /**
- * main - Entry point
- * @argc: The number of command-line arguments
- * @argv: An array containing the command-line arguments
+ * main - Prints its name
+ * @argc: argument count
+ * @argv: argument vector
  *
- * Return: Always 0 (Success)
+ * Return: Always zero
  */
-
+int main(int argc, char *argv[])
 {
-    char *program = argv[0];
-    int index = strlen(program) - 1;
+	(void) argc;
+	printf("%s\n", argv[0]);
 
-    while (index >= 0 && program[index] != '/')
-    {
-        index--;
-    }
-
-    program = program + index + 1;
-
-    printf("%s\n", program);
-
-    return (0);
+	return (0);
 }
-
