@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+	int main(__attribute__((unused)) int argc, char *argv[])
 /**
  * main - Entry point
  * @argc: The number of command-line arguments
@@ -8,7 +8,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(int argc, char *argv[])
+
 {
     char *program = argv[0];
     int index = strlen(program) - 1;
